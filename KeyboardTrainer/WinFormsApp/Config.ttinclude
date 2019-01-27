@@ -1,0 +1,14 @@
+<#@ assembly name="System.Core" #>
+<#@ assembly name="EnvDTE" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#
+  var serviceProvider = this.Host as IServiceProvider;
+
+  var config = (serviceProvider != null)
+    ? ((EnvDTE.DTE) serviceProvider.GetService(typeof(EnvDTE.DTE))).Solution.SolutionBuild.ActiveConfiguration.Name
+    : this.Host.ResolveParameterValue("", "", "ConfigName");
+
+  var ru = config.EndsWith("_Ru");
+#>

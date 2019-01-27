@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<#@ template language="C#" hostspecific="true" #><#@ output extension=".ttxml_" #><#@ include file="..\Config.ttinclude" #>-->
+<Languages>
+  <Language>
+    <Code>en</Code>
+    <!--<# if (ru) #>-->
+    <Name>Английский</Name>
+    <!--<# else #>-->
+    <Name>English</Name>
+    <!--<# #>-->
+    <Letters>abcdefghijklmnopqrstuvwxyz</Letters>
+    <Punctuation>.,;:?!`'""-()</Punctuation>
+    <Symbols>~@#$%^&amp;*_+=[]{}|\/&lt;&gt;</Symbols>
+  </Language>
+
+  <Language>
+    <Code>fr</Code>
+    <!--<# if (ru) #>-->
+    <Name>Французский</Name>
+    <!--<# else #>-->
+    <Name>French</Name>
+    <!--<# #>-->
+    <Letters>éèçàazertyuiopqsdfghjklmùwxcvbnµâêûîôäëÿüïö</Letters>
+    <Punctuation>".,;:?!'"-()</Punctuation>
+    <Symbols>²&amp;_=^$*&lt;&gt;°+¨£%µ/§</Symbols>
+  </Language>
+
+  <Language>
+    <Code>es</Code>    
+    <!--<# if (ru) #>-->
+    <Name>Испанский</Name>
+    <!--<# else #>-->
+    <Name>Spanish</Name>
+    <!--<# #>-->
+    <Letters>qwertyuiopasdfghjklñçzxcvbnm</Letters>
+    <Punctuation>',.-!"·%();:?¿¡</Punctuation>
+    <Symbols>=+$&amp;/ºª^*¨&lt;&gt;_`´</Symbols>
+  </Language>
+
+  <Language>
+    <Code>de</Code>
+    <!--<# if (ru) #>-->
+    <Name>Немецкий</Name>
+    <!--<# else #>-->
+    <Name>German</Name>
+    <!--<# #>-->
+    <Letters>qwertzuiopüasdfghjklöäyxcvbnm</Letters>
+    <Punctuation>´,.-!"%()?`';:</Punctuation>
+    <Symbols>^ß+#&lt;&gt;°§$&amp;=*_/</Symbols>
+  </Language>
+
+  <Language>
+    <Code>it</Code>
+    <!--<# if (ru) #>-->
+    <Name>Итальянский</Name>
+    <!--<# else #>-->
+    <Name>Italian</Name>
+    <!--<# #>-->
+    <Letters>ìqwertyuiopèasdfghjklòàùzxcvbnméç</Letters>
+    <Punctuation>',.-!"%()?;:</Punctuation>
+    <Symbols>+|£$=^°§_*\/&amp;&lt;&gt;</Symbols>
+  </Language>
+
+  <Language>
+    <Code>pt</Code>
+    <!--<# if (ru) #>-->
+    <Name>Португальский</Name>
+    <!--<# else #>-->
+    <Name>Portuguese</Name>
+    <!--<# #>-->
+    <Letters>qwertyuiopásdfghjklçzxcvbnm</Letters>
+    <Punctuation>'«,.-!"%()?»;:</Punctuation>
+    <Symbols>=+~|$^ºª\/#_*&amp;&lt;&gt;</Symbols>
+  </Language>
+
+  <Language>
+    <Code>ru</Code>
+    <!--<# if (ru) #>-->
+    <Name>Русский</Name>
+    <!--<# else #>-->
+    <Name>Russian</Name>
+    <!--<# #>-->
+    <Letters>ёйцукенгшщзхъфывапролджэячсмитьбю</Letters>
+    <Punctuation>-.!";:?(),%</Punctuation>
+    <Symbols>=№+\*_/</Symbols>
+  </Language>
+
+  <Language>
+    <Code>uk</Code>
+    <!--<# if (ru) #>-->
+    <Name>Украинский</Name>
+    <!--<# else #>-->
+    <Name>Ukrainian</Name>
+    <!--<# #>-->
+    <Letters>йцукенгшщзхїфівапролджєґячсмитьбю</Letters>
+    <Punctuation>-.!";:?(),%'</Punctuation>
+    <Symbols>=№+\*_/₴</Symbols>
+  </Language>
+
+  <Language>
+    <Code>be</Code>
+    <!--<# if (ru) #>-->
+    <Name>Белорусский</Name>
+    <!--<# else #>-->
+    <Name>Belarussian</Name>
+    <!--<# #>-->
+    <Letters>ёйцукенгшўзхфывапролджэячсмітьбю</Letters>
+    <Punctuation>-.!";:?(),%'</Punctuation>
+    <Symbols>==№+\*_/</Symbols>
+  </Language>
+</Languages>

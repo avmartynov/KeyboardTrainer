@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<#@ template language="C#" hostspecific="true" #><#@ output extension=".ttxml_" #><#@ include file="..\Config.ttinclude" #>-->
+<Appearance>
+  <FontSize>20</FontSize>
+  <FontName>Verdana</FontName>
+  
+<!--<# if (ru) #>-->
+  <!-- Допустимые варианты цветов см. https://msdn.microsoft.com/library/system.drawing.knowncolor(v=vs.110).aspx -->
+<!--<# else #>-->
+  <!-- Known Color Names you can see at https://msdn.microsoft.com/library/system.drawing.knowncolor(v=vs.110).aspx -->
+<!--<# #>-->
+  
+  <TextColor>DarkSlateGray</TextColor>
+  <LocalTextColor>DarkSlateGray</LocalTextColor>
+  <HeadColor>Gold</HeadColor>
+  <CurrentCharColor>GreenYellow</CurrentCharColor>
+  <IncorrectCharColor>Red</IncorrectCharColor>
+  <TailColor>LightYellow</TailColor>
+  <BackgrColor>White</BackgrColor>
+
+<!--<# if (ru) #>-->
+  <NewExerciseText>Новое упражнение</NewExerciseText>
+  <SpaceCharacterText>Пробел</SpaceCharacterText>
+  <UpperPrefixText>Заглавное</UpperPrefixText>  
+<!--<# else #>-->
+  <NewExerciseText>New exercise</NewExerciseText>
+  <SpaceCharacterText>Space</SpaceCharacterText>
+  <UpperPrefixText>Upper</UpperPrefixText>
+<!--<# #>-->
+  
+</Appearance>

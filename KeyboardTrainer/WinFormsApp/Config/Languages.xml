@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages>
+  <Language>
+    <Code>fr</Code>
+    <Name>French</Name>
+    <Letters>éèçàazertyuiopqsdfghjklmùwxcvbnµâêûîôäëÿüïö</Letters>
+    <Punctuation>".,;:?!'"-()</Punctuation>
+    <Symbols>²&amp;_=^$*&lt;&gt;°+¨£%µ/§</Symbols>
+  </Language>
+
+  <Language>
+    <Code>es</Code>    
+    <Name>Spanish</Name>
+    <Letters>qwertyuiopasdfghjklñçzxcvbnm</Letters>
+    <Punctuation>',.-!"·%();:?¿¡</Punctuation>
+    <Symbols>=+$&amp;/ºª^*¨&lt;&gt;_`´</Symbols>
+  </Language>
+
+  <Language>
+    <Code>de</Code>
+    <Name>German</Name>
+    <Letters>qwertzuiopüasdfghjklöäyxcvbnm</Letters>
+    <Punctuation>´,.-!"%()?`';:</Punctuation>
+    <Symbols>^ß+#&lt;&gt;°§$&amp;=*_/</Symbols>
+  </Language>
+
+  <Language>
+    <Code>it</Code>
+    <Name>Italian</Name>
+    <Letters>ìqwertyuiopèasdfghjklòàùzxcvbnméç</Letters>
+    <Punctuation>',.-!"%()?;:</Punctuation>
+    <Symbols>+|£$=^°§_*\/&amp;&lt;&gt;</Symbols>
+  </Language>
+
+  <Language>
+    <Code>pt</Code>
+    <Name>Portuguese</Name>
+    <Letters>qwertyuiopásdfghjklçzxcvbnm</Letters>
+    <Punctuation>'«,.-!"%()?»;:</Punctuation>
+    <Symbols>=+~|$^ºª\/#_*&amp;&lt;&gt;</Symbols>
+  </Language>
+
+  <Language>
+    <Code>ru</Code>
+    <Name>Russian</Name>
+    <Letters>ёйцукенгшщзхъфывапролджэячсмитьбю</Letters>
+    <Punctuation>-.!";:?(),%</Punctuation>
+    <Symbols>=№+\*_/</Symbols>
+  </Language>
+
+  <Language>
+    <Code>uk</Code>
+    <Name>Ukrainian</Name>
+    <Letters>йцукенгшщзхїфівапролджєґячсмитьбю</Letters>
+    <Punctuation>-.!";:?(),%'</Punctuation>
+    <Symbols>=№+\*_/₴</Symbols>
+  </Language>
+
+  <Language>
+    <Code>be</Code>
+    <Name>Belarussian</Name>
+    <Letters>ёйцукенгшўзхфывапролджэячсмітьбю</Letters>
+    <Punctuation>-.!";:?(),%'</Punctuation>
+    <Symbols>==№+\*_/</Symbols>
+  </Language>
+
+  <Language>
+    <Code>kk</Code>
+    <Name>Kazah</Name>
+    <Letters>аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя</Letters>
+    <Punctuation>-.!";:?(),</Punctuation>
+    <Symbols>\№/|\/</Symbols>
+  </Language>
+
+  <Language>
+    <Code>bg</Code>
+    <Name>Bulgarian</Name>
+    <Letters>уеишщксдзцьяаожгтнвмчѝюйъэфхпрлбы</Letters>
+    <Punctuation>-.!";:?()„“%,</Punctuation>
+    <Symbols>№/$€§+</Symbols>
+  </Language>
+</Languages>

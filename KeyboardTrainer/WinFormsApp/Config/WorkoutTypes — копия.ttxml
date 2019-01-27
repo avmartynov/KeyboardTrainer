@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<#@ template language="C#" hostspecific="true" #><#@ output extension=".ttxml_" #><#@ include file="..\Config.ttinclude" #>-->
+<WorkoutTypes>
+  <WorkoutType>
+    <Code>EnglishLetters</Code>
+    <!--<# if (ru) #>-->
+    <Name>Буквы английского языка</Name>
+    <!--<# else #>-->
+    <Name>English letters</Name>
+    <!--<# #>-->
+    <!--<# if (ru) #>-->
+    <Description>
+      Тренировка по набору английского текста.
+      Включает только строчные буквы английского языка.
+    </Description>
+    <!--<# else #>-->
+    <Description>
+      --
+    </Description>
+    <!--<# #>-->
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>6</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>LocalLetters</Code>
+    <!--<# if (ru) #>-->
+    <Name>Буквы местного языка</Name>
+    <!--<# else #>-->
+    <Name>Local letters</Name>
+    <!--<# #>-->
+    <!--<# if (ru) #>-->
+    <Description>
+      Тренировка по набору текста на местном языке.
+      Включает только строчные буквы местного языка.
+    </Description>
+    <!--<# else #>-->
+    <Description>
+      --
+    </Description>
+    <!--<# #>-->
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>6</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <LocalWordPercent>100</LocalWordPercent>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>EnglishLettersCapital</Code>
+    <!--<# if (ru) #>-->
+    <Name>Буквы английского языка, включая заглавные</Name>
+    <!--<# else #>-->
+    <Name>English letters with capitals</Name>
+    <!--<# #>-->
+    <!--<# if (ru) #>-->
+    <Description>
+      Тренировка по набору английского текста.
+      Включает только английские буквы. Каждое пятое слово с большой буквы.
+    </Description>
+    <!--<# else #>-->
+    <Description>
+      --
+    </Description>
+    <!--<# #>-->
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>6</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <CapitalizedWordPercent>20</CapitalizedWordPercent>
+  </WorkoutType>
+
+
+  <WorkoutType>
+    <Code>LocalLettersCapital</Code>
+    <!--<# if (ru) #>-->
+    <Name>Буквы местного языка, включая заглавные</Name>
+    <!--<# else #>-->
+    <Name>Local letters with capitals</Name>
+    <!--<# #>-->
+    <!--<# if (ru) #>-->
+    <Description>
+      Тренировка по набору текста на местном языке.
+      Включает только буквы местного языка.
+      Каждое пятое слово с большой буквы.
+    </Description>
+    <!--<# else #>-->
+    <Description>
+      --
+    </Description>
+    <!--<# #>-->
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>6</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <LocalWordPercent>100</LocalWordPercent>
+    <CapitalizedWordPercent>20</CapitalizedWordPercent>
+  </WorkoutType>
+
+  <WorkoutType code="EnglishLettersCapPunct" name="English letters with capitals and punctuation"
+       exerciseLength="30" maxWordLength="6" minWordLength="2" capitalizedWordPercent="20" punctuationPercent="10" >
+    <Description> -- </Description>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>LocalLettersCapPunct</Code>
+    <Name>Local letters with capitals and punctuation</Name>
+    <Description>
+      --
+    </Description>
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>6</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <LocalWordPercent>100</LocalWordPercent>
+    <CapitalizedWordPercent>20</CapitalizedWordPercent>
+    <PunctuationPercent>10</PunctuationPercent>
+  </WorkoutType>
+  
+  <WorkoutType>
+    <Code>LocalLettersCapPunctSymb</Code>
+    <Name>Local letters with capitals, punctuation and special symbols</Name>
+    <Description>
+      --
+    </Description>
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>6</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <LocalWordPercent>100</LocalWordPercent>
+    <CapitalizedWordPercent>20</CapitalizedWordPercent>
+    <PunctuationPercent>10</PunctuationPercent>
+    <SpecialSymbolPercent>10</SpecialSymbolPercent>	
+  </WorkoutType>  
+
+  <WorkoutType>
+    <Code>LocalSymDig</Code>
+    <Name>Local special symbols, digits and punctuation</Name>    
+    <Description>
+      --
+    </Description>
+    <ExerciseLength>30</ExerciseLength>
+    <MinWordLength>3</MinWordLength>
+    <MaxWordLength>6</MaxWordLength>
+    
+    <LocalWordPercent>100</LocalWordPercent>
+    
+    <DigitsPercent>40</DigitsPercent>
+    <SpecialSymbolPercent>30</SpecialSymbolPercent>
+    <PunctuationPercent>30</PunctuationPercent>	
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>EnglishLettersCapsLock</Code>
+    <Name>English letters with CapsLock</Name>
+    <Description>
+      --
+    </Description>
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>8</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <CapsLockWordPercent>50</CapsLockWordPercent>
+  </WorkoutType>
+
+
+  <WorkoutType>
+    <Code>Digits</Code>
+    <Name>Digits only</Name>
+    <Description>
+      --
+    </Description>
+    <ExerciseLength>30</ExerciseLength>
+    <MinWordLength>2</MinWordLength>
+    <MaxWordLength>6</MaxWordLength>
+    <DigitsPercent>100</DigitsPercent>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>DigitsPoint</Code>
+    <Name>Numbers with decimal point</Name>
+    <Description>
+      --
+    </Description>
+    <ExerciseLength>30</ExerciseLength>
+    <MinWordLength>3</MinWordLength>
+    <MaxWordLength>6</MaxWordLength>
+    <DigitsPercent>100</DigitsPercent>
+    <DecimalPointNumberPercent>100</DecimalPointNumberPercent>
+    <DecimalPointCharacter>,</DecimalPointCharacter>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>EnglishSymDig</Code>
+    <Name>Digits and english special symbols</Name>    
+    <Description>
+      --
+    </Description>
+    <ExerciseLength>30</ExerciseLength>
+    <MinWordLength>3</MinWordLength>
+    <MaxWordLength>6</MaxWordLength>
+    <DigitsPercent>50</DigitsPercent>
+    <SpecialSymbolPercent>50</SpecialSymbolPercent>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>SymDig</Code>
+    <!---->
+    <Name>Digits and all special symbols</Name>        
+    <!---->
+    <Description>
+      --
+    </Description>
+    <!---->
+    <ExerciseLength>30</ExerciseLength>
+    <MinWordLength>3</MinWordLength>
+    <MaxWordLength>6</MaxWordLength>
+    <LocalWordPercent>50</LocalWordPercent>
+    <DigitsPercent>50</DigitsPercent>
+    <SpecialSymbolPercent>50</SpecialSymbolPercent>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>Complex</Code>
+    <!---->
+    <Name>Complex workout</Name>
+    <!---->
+    <Description>
+      --
+    </Description>
+    <!---->
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>6</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <LocalWordPercent>50</LocalWordPercent>
+    <CapitalizedWordPercent>20</CapitalizedWordPercent>
+    <CapsLockWordPercent>20</CapsLockWordPercent>
+    <DigitsPercent>5</DigitsPercent>
+    <PunctuationPercent>5</PunctuationPercent>
+    <SpecialSymbolPercent>5</SpecialSymbolPercent>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>CtrlFunc</Code>
+    <!---->
+    <Name>Control keys and functional keys</Name>    
+    <!---->
+    <Description>
+      --
+    </Description>
+    <!---->
+    <ExerciseLength>10</ExerciseLength>
+    <MaxWordLength>10000</MaxWordLength>
+    <FunctionalKeysPercent>100</FunctionalKeysPercent>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>EnglishRand</Code>
+    <!---->
+    <Name>Random english symbols</Name>
+    <!---->
+    <Description>
+      --
+    </Description>
+    <!---->
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>6</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <RandomSymbol>*m}</RandomSymbol>
+    <RandomSymbolPercent>100</RandomSymbolPercent>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>LocalRand</Code>
+    <!---->
+    <Name>Random local symbols</Name>
+    <!---->
+    <Description>
+      --
+    </Description>
+    <!---->
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>4</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <LocalWordPercent>100</LocalWordPercent>
+    <RandomSymbols>*m}</RandomSymbols>
+    <LocalRandomSymbols>№э</LocalRandomSymbols>
+    <RandomSymbolPercent>100</RandomSymbolPercent>
+  </WorkoutType>
+
+  <WorkoutType>
+    <Code>Rand</Code>
+    <!---->
+    <Name>Random local and english symbols</Name>
+    <!---->
+    <Description>
+      --
+    </Description>
+    <!---->
+    <ExerciseLength>30</ExerciseLength>
+    <MaxWordLength>4</MaxWordLength>
+    <MinWordLength>2</MinWordLength>
+    <LocalWordPercent>100</LocalWordPercent>
+    <RandomSymbols>*m}</RandomSymbols>
+    <LocalRandomSymbols>№э</LocalRandomSymbols>
+    <RandomSymbolPercent>100</RandomSymbolPercent>
+  </WorkoutType>
+</WorkoutTypes>

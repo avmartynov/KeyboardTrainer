@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<#@ template language="C#" hostspecific="true" #><#@ output extension=".ttxml_" #><#@ include file="..\Config.ttinclude" #>-->
+<WorkoutTypes>
+  <WorkoutType id="EnglishLetters" >
+    <!--<# if (ru) #>-->
+    <Name>Буквы английского языка</Name>
+    <!--<# else #>-->
+    <Name>English letters</Name>
+    <!--<# #>--> 
+    <!--<# if (ru) #>-->
+    <Description>
+      Тренировка по набору английского текста.
+      Включает только строчные буквы английского языка.
+    </Description>
+    <!--<# else #>-->
+    <Description>
+      --
+    </Description>
+    <!--<# #>-->
+  </WorkoutType>
+
+  <WorkoutType id="LocalLetters" localWordPercent="100">
+    <!--<# if (ru) #>-->
+    <Name>Буквы местного языка</Name>
+    <!--<# else #>-->
+    <Name>Local letters</Name>
+    <!--<# #>-->
+    <!--<# if (ru) #>-->
+    <Description>
+      Тренировка по набору текста на местном языке.
+      Включает только строчные буквы местного языка.
+    </Description>
+    <!--<# else #>-->
+    <Description>
+      --
+    </Description>
+    <!--<# #>-->
+  </WorkoutType>
+
+  <WorkoutType id="EnglishLettersCapital" capitalizedWordPercent="20" >
+    <!--<# if (ru) #>-->
+    <Name>Буквы английского языка, включая заглавные</Name>
+    <!--<# else #>-->
+    <Name>English letters with capitals</Name>
+    <!--<# #>-->
+    <!--<# if (ru) #>-->
+    <Description>
+      Тренировка по набору английского текста.
+      Включает только английские буквы. Каждое пятое слово с большой буквы.
+    </Description>
+    <!--<# else #>-->
+    <Description>
+      --
+    </Description>
+    <!--<# #>-->
+  </WorkoutType>
+
+
+  <WorkoutType id="LocalLettersCapital" localWordPercent="100" capitalizedWordPercent="20" >
+    <!--<# if (ru) #>-->
+    <Name>Буквы местного языка, включая заглавные</Name>
+    <!--<# else #>-->
+    <Name>Local letters with capitals</Name>
+    <!--<# #>-->
+    <!--<# if (ru) #>-->
+    <Description>
+      Тренировка по набору текста на местном языке.
+      Включает только буквы местного языка.
+      Каждое пятое слово с большой буквы.
+    </Description>
+    <!--<# else #>-->
+    <Description>
+      --
+    </Description>
+    <!--<# #>-->
+  </WorkoutType>
+
+  <WorkoutType id="EnglishLettersCapPunct" capitalizedWordPercent="20" punctuationPercent="10" >
+    <Name>English letters with capitals and punctuation</Name>
+  </WorkoutType>
+
+  <WorkoutType id="LocalLettersCapPunct" localWordPercent="100" capitalizedWordPercent="20" punctuationPercent="10" >
+    <Name>Local letters with capitals and punctuation</Name>
+  </WorkoutType>
+
+  <WorkoutType id="LocalLettersCapPunctSymb" localWordPercent="100" capitalizedWordPercent="20" punctuationPercent="10" specialSymbolPercent="10" >
+    <Name>Local letters with capitals, punctuation and special symbols</Name>
+  </WorkoutType>  
+
+  <WorkoutType id="LocalSymDigPunct" minWordLength="3" localWordPercent="100" digitsPercent="40" specialSymbolPercent="30" punctuationPercent="30" >
+    <Name>Local special symbols, digits and punctuation</Name>    
+  </WorkoutType>
+
+  <WorkoutType id="LocalLettersSymDigPunct" minWordLength="6" localWordPercent="100" capitalizedWordPercent="20" digitsPercent="15" specialSymbolPercent="10" 
+               punctuationPercent="10" >
+    <Name>All local keys</Name>    
+  </WorkoutType>
+
+  <WorkoutType id="EnglishSymDigPunct" minWordLength="3" localWordPercent="0" digitsPercent="40" specialSymbolPercent="30" punctuationPercent="30" >
+    <Name>English special symbols, digits and punctuation</Name>    
+  </WorkoutType>
+  
+  <WorkoutType id="EnglishLetersSymDigPunct" minWordLength="6" digitsPercent="15" specialSymbolPercent="10" punctuationPercent="10" >
+    <Name>All english keys</Name>    
+  </WorkoutType>
+
+  <WorkoutType id="EnglishLettersCapsLock" maxWordLength="8" capsLockWordPercent="50" >
+    <Name>English letters with CapsLock</Name>
+  </WorkoutType>
+
+  <WorkoutType id="Digits" digitsPercent="100" >
+    <Name>Digits only</Name>
+  </WorkoutType>
+
+  <WorkoutType id="DigitsPoint" minWordLength="3" digitsPercent="100" decimalPointNumberPercent="100" decimalPointCharacter="," >
+    <Name>Numbers with decimal point</Name>
+  </WorkoutType>
+
+  <WorkoutType id="EnglishSymDig" minWordLength="3" digitsPercent="50" specialSymbolPercent="50" >
+    <Name>Digits and english special symbols</Name>
+  </WorkoutType>
+
+  <WorkoutType id="SymDig" minWordLength="3" localWordPercent="50" digitsPercent="50" specialSymbolPercent="50" >
+    <Name>Digits and all special symbols</Name>
+  </WorkoutType>
+
+  <WorkoutType id="Complex" localWordPercent="50" capitalizedWordPercent="20" capsLockWordPercent="20" digitsPercent="5" punctuationPercent="5" specialSymbolPercent="5" >
+    <Name>Complex workout</Name>
+  </WorkoutType>
+
+  <WorkoutType id="CtrlFunc" exerciseLength="10" maxWordLength="10000" functionalKeysPercent="100" >
+    <Name>Control keys and functional keys</Name>
+  </WorkoutType>
+
+  <WorkoutType id="EnglishRand" randomSymbol="*m}" randomSymbolPercent="100" >
+    <Name>Random english symbols</Name>
+  </WorkoutType>
+
+  <WorkoutType id="LocalRand" maxWordLength="4" localWordPercent="100" randomSymbols="*m}" localRandomSymbols="№э" randomSymbolPercent="100" >
+    <Name>Random local symbols</Name>
+  </WorkoutType>
+
+  <WorkoutType id="Rand" maxWordLength="4" localWordPercent="100" randomSymbols="*m}" localRandomSymbols="№э" randomSymbolPercent="100" >
+    <Name>Random local and english symbols</Name>
+  </WorkoutType>
+</WorkoutTypes>

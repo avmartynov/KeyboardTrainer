@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Pronouncings>
+  <!--  English prononcings -->  
+
+  <Pronouncing name="NewExercise"  lang="en">New exercise</Pronouncing>    
+  <Pronouncing name="UpperPrefix"  lang="en">Upper</Pronouncing>    
+  
+  <Pronouncing name="a"        lang="en">a</Pronouncing>
+  <Pronouncing name="b"        lang="en">bee</Pronouncing>
+  <Pronouncing name="c"        lang="en">cee</Pronouncing>
+  <Pronouncing name="d"        lang="en">dee</Pronouncing>
+  <Pronouncing name="e"        lang="en">e</Pronouncing>
+  <Pronouncing name="f"        lang="en">ef</Pronouncing>
+  <Pronouncing name="g"        lang="en">gee</Pronouncing>
+  <Pronouncing name="h"        lang="en">aitch</Pronouncing>
+  <Pronouncing name="i"        lang="en">i</Pronouncing>
+  <Pronouncing name="j"        lang="en">jay</Pronouncing>
+  <Pronouncing name="k"        lang="en">kay</Pronouncing>
+  <Pronouncing name="l"        lang="en">ell</Pronouncing>
+  <Pronouncing name="m"        lang="en">em</Pronouncing>
+  <Pronouncing name="n"        lang="en">en</Pronouncing>
+  <Pronouncing name="o"        lang="en">o</Pronouncing>
+  <Pronouncing name="p"        lang="en">pee</Pronouncing>
+  <Pronouncing name="q"        lang="en">cue</Pronouncing>
+  <Pronouncing name="r"        lang="en">r</Pronouncing>
+  <Pronouncing name="s"        lang="en">ess</Pronouncing>
+  <Pronouncing name="t"        lang="en">tee</Pronouncing>
+  <Pronouncing name="u"        lang="en">u</Pronouncing>
+  <Pronouncing name="v"        lang="en">vee</Pronouncing>
+  <Pronouncing name="w"        lang="en">double-u</Pronouncing>
+  <Pronouncing name="x"        lang="en">ex</Pronouncing>
+  <Pronouncing name="y"        lang="en">y</Pronouncing>
+  <Pronouncing name="z"        lang="en">zed</Pronouncing>  
+  
+  <Pronouncing name=" "        lang="en">space</Pronouncing>  
+  <Pronouncing name="é"        lang="en">e aigu</Pronouncing>
+  <Pronouncing name="è"        lang="en">e grave</Pronouncing>
+  <Pronouncing name="ç"        lang="en">cédille</Pronouncing>
+  <Pronouncing name="à"        lang="en">a grave</Pronouncing>
+  <Pronouncing name="ù"        lang="en">u grave</Pronouncing>
+  <Pronouncing name="µ"        lang="en">micro sign</Pronouncing>
+  <Pronouncing name="â"        lang="en">circonflexe a</Pronouncing>
+  <Pronouncing name="ê"        lang="en">circonflexe e</Pronouncing>
+  <Pronouncing name="û"        lang="en">circonflexe u</Pronouncing>
+  <Pronouncing name="î"        lang="en">circonflexe i</Pronouncing>
+  <Pronouncing name="ô"        lang="en">circonflexe o</Pronouncing>
+  <Pronouncing name="ä"        lang="en">umlaut a</Pronouncing>
+  <Pronouncing name="ë"        lang="en">umlaut e</Pronouncing>
+  <Pronouncing name="ÿ"        lang="en">umlaut y</Pronouncing>
+  <Pronouncing name="ü"        lang="en">umlaut u</Pronouncing>
+  <Pronouncing name="ï"        lang="en">umlaut i</Pronouncing>
+  <Pronouncing name="ö"        lang="en">umlaut o</Pronouncing>
+  <Pronouncing name="ñ"        lang="en">tilde n</Pronouncing>
+  <Pronouncing name="ò"        lang="en">0 grave</Pronouncing>
+  <Pronouncing name="ì"        lang="en">i grave</Pronouncing>
+  <Pronouncing name="á"        lang="en">aigu a</Pronouncing>
+  <Pronouncing name="ґ"        lang="en">ghe with upturn</Pronouncing>
+  <Pronouncing name="ў"        lang="en">short u</Pronouncing>
+  
+  <Pronouncing name="."        lang="en">period</Pronouncing>
+  <Pronouncing name=","        lang="en">comma</Pronouncing>
+  <Pronouncing name=";"        lang="en">semicolon</Pronouncing>
+  <Pronouncing name=":"        lang="en">colon</Pronouncing>
+  <Pronouncing name="?"        lang="en">question mark</Pronouncing>
+  <Pronouncing name="!"        lang="en">exclamation poin</Pronouncing>
+  <Pronouncing name="`"        lang="en">grave accent</Pronouncing>
+  <Pronouncing name="'"        lang="en">single quote</Pronouncing>
+  <Pronouncing name="&quot;"   lang="en">double quotes</Pronouncing>
+  <Pronouncing name="-"        lang="en">hyphen</Pronouncing>
+  <Pronouncing name="("        lang="en">opening parenthesis</Pronouncing>
+  <Pronouncing name=")"        lang="en">closing parenthesis</Pronouncing>
+  <Pronouncing name="~"        lang="en">tilde</Pronouncing>
+  <Pronouncing name="@"        lang="en">at symbol</Pronouncing>
+  <Pronouncing name="#"        lang="en">number</Pronouncing>
+  <Pronouncing name="$"        lang="en">dollar</Pronouncing>
+  <Pronouncing name="%"        lang="en">percent</Pronouncing>
+  <Pronouncing name="^"        lang="en">caret</Pronouncing>
+  <Pronouncing name="&amp;"    lang="en">ampersand</Pronouncing>
+  <Pronouncing name="*"        lang="en">asterisk</Pronouncing>
+  <Pronouncing name="_"        lang="en">underscore</Pronouncing>
+  <Pronouncing name="+"        lang="en">plus</Pronouncing>
+  <Pronouncing name="="        lang="en">equals</Pronouncing>
+  <Pronouncing name="["        lang="en">opening bracket</Pronouncing>
+  <Pronouncing name="]"        lang="en">closing bracket</Pronouncing>
+  <Pronouncing name="{"        lang="en">opening brace</Pronouncing>
+  <Pronouncing name="}"        lang="en">closing brace</Pronouncing>
+  <Pronouncing name="|"        lang="en">vertical bar</Pronouncing>
+  <Pronouncing name="\"        lang="en">backslash</Pronouncing>
+  <Pronouncing name="/"        lang="en">slash</Pronouncing>
+  <Pronouncing name="&lt;"     lang="en">less than</Pronouncing>
+  <Pronouncing name="&gt;"     lang="en">greater than</Pronouncing>
+  <Pronouncing name="²"        lang="en">superscript two</Pronouncing>
+  <Pronouncing name="°"        lang="en">degree</Pronouncing>
+  <Pronouncing name="¨"        lang="en">umlaut</Pronouncing>
+  <Pronouncing name="£"        lang="en">pound</Pronouncing>
+  <Pronouncing name="µ"        lang="en">micro</Pronouncing>
+  <Pronouncing name="§"        lang="en">section</Pronouncing>  
+  <Pronouncing name="·"        lang="en">middle dot</Pronouncing>  
+  <Pronouncing name="¿"        lang="en">inverted question mark</Pronouncing>  
+  <Pronouncing name="¡"        lang="en">inverted exclamation mark</Pronouncing>  
+  <Pronouncing name="º"        lang="en">superscript o</Pronouncing>  
+  <Pronouncing name="ª"        lang="en">superscript a</Pronouncing>  
+  <Pronouncing name="´"        lang="en">acute accent</Pronouncing>  
+  <Pronouncing name="ß"        lang="en">sharp s</Pronouncing>  
+  <Pronouncing name="«"        lang="en">left double angle quotes</Pronouncing>  
+  <Pronouncing name="»"        lang="en">right double angle quotes</Pronouncing>  
+  <Pronouncing name="№"        lang="en">numero sign</Pronouncing>  
+  <Pronouncing name="₴"        lang="en">hryvnia sign</Pronouncing>  
+  
+  <Pronouncing name="F1"       lang="en">F 1</Pronouncing>
+  <Pronouncing name="F2"       lang="en">F 2</Pronouncing>
+  <Pronouncing name="F3"       lang="en">F 3</Pronouncing>
+  <Pronouncing name="F4"       lang="en">F 4</Pronouncing>
+  <Pronouncing name="F5"       lang="en">F 5</Pronouncing>
+  <Pronouncing name="F6"       lang="en">F 6</Pronouncing>
+  <Pronouncing name="F7"       lang="en">F 7</Pronouncing>
+  <Pronouncing name="F8"       lang="en">F 8</Pronouncing>
+  <Pronouncing name="F9"       lang="en">F 9</Pronouncing>
+  <Pronouncing name="F10"      lang="en">F 10</Pronouncing>
+  <Pronouncing name="F11"      lang="en">F 11</Pronouncing>
+  <Pronouncing name="F12"      lang="en">F 12</Pronouncing>
+
+  <Pronouncing name="Escape"   lang="en">Escape</Pronouncing>
+  <Pronouncing name="Tab"      lang="en">Tabulation</Pronouncing>
+  <Pronouncing name="CapsLock" lang="en">Caps Lock</Pronouncing>
+  <Pronouncing name="Ctrl"     lang="en">Control</Pronouncing>
+  <Pronouncing name="Back"     lang="en">Backspace</Pronouncing>
+  <Pronouncing name="Enter"    lang="en">Enter</Pronouncing>
+  <Pronouncing name="Menu"     lang="en">Menu</Pronouncing>
+  <Pronouncing name="Insert"   lang="en">Insert</Pronouncing>
+  <Pronouncing name="Delete"   lang="en">Delete</Pronouncing>
+  <Pronouncing name="Home"     lang="en">Home</Pronouncing>
+  <Pronouncing name="End"      lang="en">End</Pronouncing>
+  <Pronouncing name="PageDown" lang="en">Page Down</Pronouncing>
+  <Pronouncing name="PageUp"   lang="en">Page Up</Pronouncing>
+  <Pronouncing name="Scroll"   lang="en">Scroll Lock</Pronouncing>
+  <Pronouncing name="Pause"    lang="en">Pause</Pronouncing>
+  <Pronouncing name="NumLock"  lang="en">Number Lock</Pronouncing>
+
+  
+  <!--  Russian prononcings -->
+  
+  <Pronouncing name="NewExercise"  lang="ru">Новое упражнение</Pronouncing>    
+  <Pronouncing name="UpperPrefix"  lang="ru">Заглавное</Pronouncing>    
+
+  <Pronouncing name="a"        lang="ru">эй</Pronouncing>
+  <Pronouncing name="b"        lang="ru">би</Pronouncing>
+  <Pronouncing name="c"        lang="ru">cи</Pronouncing>
+  <Pronouncing name="d"        lang="ru">ди</Pronouncing>
+  <Pronouncing name="e"        lang="ru">e</Pronouncing>
+  <Pronouncing name="f"        lang="ru">эф</Pronouncing>
+  <Pronouncing name="g"        lang="ru">джи</Pronouncing>
+  <Pronouncing name="h"        lang="ru">эйч</Pronouncing>
+  <Pronouncing name="i"        lang="ru">ай</Pronouncing>
+  <Pronouncing name="j"        lang="ru">джей</Pronouncing>
+  <Pronouncing name="k"        lang="ru">кей</Pronouncing>
+  <Pronouncing name="l"        lang="ru">эл</Pronouncing>
+  <Pronouncing name="m"        lang="ru">эм</Pronouncing>
+  <Pronouncing name="n"        lang="ru">эн</Pronouncing>
+  <Pronouncing name="o"        lang="ru">oу</Pronouncing>
+  <Pronouncing name="p"        lang="ru">пи</Pronouncing>
+  <Pronouncing name="q"        lang="ru">кью</Pronouncing>
+  <Pronouncing name="r"        lang="ru">ар</Pronouncing>
+  <Pronouncing name="s"        lang="ru">эс</Pronouncing>
+  <Pronouncing name="t"        lang="ru">ти</Pronouncing>
+  <Pronouncing name="u"        lang="ru">ю</Pronouncing>
+  <Pronouncing name="v"        lang="ru">ви</Pronouncing>
+  <Pronouncing name="w"        lang="ru">дабл-ю</Pronouncing>
+  <Pronouncing name="x"        lang="ru">экс</Pronouncing>
+  <Pronouncing name="y"        lang="ru">уай</Pronouncing>
+  <Pronouncing name="z"        lang="ru">зед</Pronouncing>  
+  
+  <Pronouncing name="в"        lang="ru">вэ</Pronouncing>
+  <Pronouncing name="с"        lang="ru">эс</Pronouncing>
+  <Pronouncing name="ж"        lang="ru">жэ</Pronouncing>
+  <Pronouncing name="к"        lang="ru">ка</Pronouncing>
+
+  <Pronouncing name=" "        lang="ru">Пробел</Pronouncing>  
+  <Pronouncing name="."        lang="ru">точка</Pronouncing>
+  <Pronouncing name=","        lang="ru">запятая</Pronouncing>
+  <Pronouncing name=";"        lang="ru">точка с запятой</Pronouncing>
+  <Pronouncing name=":"        lang="ru">вдоеточие</Pronouncing>
+  <Pronouncing name="?"        lang="ru">вопросительный знак</Pronouncing>
+  <Pronouncing name="!"        lang="ru">восклицательный знак</Pronouncing>
+  <Pronouncing name="`"        lang="ru">апостроф</Pronouncing>
+  <Pronouncing name="'"        lang="ru">одинарная кавычка</Pronouncing>
+  <Pronouncing name="&quot;"   lang="ru">кавычки</Pronouncing>
+  <Pronouncing name="-"        lang="ru">тире</Pronouncing>
+  <Pronouncing name="("        lang="ru">открывающая круглая</Pronouncing>
+  <Pronouncing name=")"        lang="ru">закрывающая круглая</Pronouncing>
+  <Pronouncing name="~"        lang="ru">тильда</Pronouncing>
+  <Pronouncing name="@"        lang="ru">собака</Pronouncing>
+  <Pronouncing name="#"        lang="ru">решётка</Pronouncing>
+  <Pronouncing name="$"        lang="ru">доллар</Pronouncing>
+  <Pronouncing name="%"        lang="ru">процент</Pronouncing>
+  <Pronouncing name="^"        lang="ru">крышка</Pronouncing>
+  <Pronouncing name="&amp;"    lang="ru">амперсанд</Pronouncing>
+  <Pronouncing name="*"        lang="ru">звёздочка</Pronouncing>
+  <Pronouncing name="_"        lang="ru">подчёркивание</Pronouncing>
+  <Pronouncing name="+"        lang="ru">плюс</Pronouncing>
+  <Pronouncing name="="        lang="ru">равенство</Pronouncing>
+  <Pronouncing name="["        lang="ru">открывающая квадратная</Pronouncing>
+  <Pronouncing name="]"        lang="ru">закрывающая квадратная</Pronouncing>
+  <Pronouncing name="{"        lang="ru">открывающая фигурная</Pronouncing>
+  <Pronouncing name="}"        lang="ru">закрывающая фигурная</Pronouncing>
+  <Pronouncing name="|"        lang="ru">вертикальная черта</Pronouncing>
+  <Pronouncing name="\"        lang="ru">бэкслэш</Pronouncing>
+  <Pronouncing name="/"        lang="ru">слэш</Pronouncing>
+  <Pronouncing name="&lt;"     lang="ru">знак меньше</Pronouncing>
+  <Pronouncing name="&gt;"     lang="ru">знак больше</Pronouncing>
+  <Pronouncing name="№"        lang="ru">номер</Pronouncing>  
+
+  <Pronouncing name="F1"       lang="ru">Ф 1</Pronouncing>
+  <Pronouncing name="F2"       lang="ru">Ф 2</Pronouncing>
+  <Pronouncing name="F3"       lang="ru">Ф 3</Pronouncing>
+  <Pronouncing name="F4"       lang="ru">Ф 4</Pronouncing>
+  <Pronouncing name="F5"       lang="ru">Ф 5</Pronouncing>
+  <Pronouncing name="F6"       lang="ru">Ф 6</Pronouncing>
+  <Pronouncing name="F7"       lang="ru">Ф 7</Pronouncing>
+  <Pronouncing name="F8"       lang="ru">Ф 8</Pronouncing>
+  <Pronouncing name="F9"       lang="ru">Ф 9</Pronouncing>
+  <Pronouncing name="F10"      lang="ru">Ф 10</Pronouncing>
+  <Pronouncing name="F11"      lang="ru">Ф 11</Pronouncing>
+  <Pronouncing name="F12"      lang="ru">Ф 12</Pronouncing>
+                               
+  <Pronouncing name="Tab"      lang="ru">Табуляция</Pronouncing>
+  <Pronouncing name="Enter"    lang="ru">Ввод</Pronouncing>
+  <Pronouncing name="Menu"     lang="ru">Меню</Pronouncing>
+  <Pronouncing name="Pause"    lang="ru">Пауза</Pronouncing>
+</Pronouncings>

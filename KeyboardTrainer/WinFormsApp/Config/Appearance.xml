@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Appearance>
+  <FontSize>14</FontSize>
+  <FontName>Verdana</FontName>
+  
+  <!-- Known Color Names you can see at https://msdn.microsoft.com/library/system.drawing.knowncolor(v=vs.110).aspx -->
+  
+  <TextColor>DarkSlateGray</TextColor>
+  <LocalTextColor>DarkSlateGray</LocalTextColor>
+  <HeadColor>Gold</HeadColor>
+  <CurrentCharColor>GreenYellow</CurrentCharColor>
+  <IncorrectCharColor>Red</IncorrectCharColor>
+  <TailColor>LightYellow</TailColor>
+  <BackgrColor>White</BackgrColor>
+</Appearance>
